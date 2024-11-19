@@ -39,7 +39,7 @@ class FlashCardApp():
     def _setup_window(self):
         """ Setup the window. """
         self.window = tkinter.Tk()
-        self.window.title("Flash Cards")
+        self.window.title("Spanish Flash Cards")
         self.window.config(padx=50, pady=50, bg=BACKGROUND_COLOR)
 
     def _setup_canvas(self):
@@ -103,7 +103,7 @@ class FlashCardApp():
         data_file_path = os.path.join(self.current_dir, 'data', "words_to_learn.csv")
         data.to_csv(data_file_path, index=False)
         self.next_card()
-        
+
 
 # ---------------------------- Main Method ------------------------------- #
 
