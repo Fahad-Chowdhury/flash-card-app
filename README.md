@@ -8,7 +8,6 @@ The 'Flash Card' application helps users learn the Spanish language by memorizin
 The 'Flash Card' application can be modified to learn any other language or terminologies simply by updating the data file and titles used.
 
 
-
 ## Developed Using:
 [Python](https://www.python.org/)
 
